@@ -39,13 +39,18 @@ Cpp-Matrix-Library/
 
 ## 🧑‍💻 Example Usage
 ```cpp
-#include "clsMatrix.h"
 
-int main() {
+#include <iostream>
+#include "clsMatrix.h"
+using namespace std;
+
+int main()
+{
     clsMatrix M1(3, 3);
 
     int counter = 1;
-    for (int i = 0; i < M1.Rows(); i++) {
+    for (int i = 0; i < M1.Rows(); i++)
+    {
         for (int j = 0; j < M1.Cols(); j++) {
             M1.SetValue(i, j, counter++);
         }
