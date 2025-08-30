@@ -22,7 +22,7 @@ Perfect for learning, practicing, or using as a lightweight matrix utility in yo
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/Cpp-Matrix-Library.git
+git clone https://github.com/Faresincode/Cpp-Matrix-Library.git
 cd Cpp-Matrix-Library
 ```
 ---
