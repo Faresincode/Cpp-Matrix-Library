@@ -2,6 +2,8 @@
 #include<iostream>
 #include<string>
 #include<iomanip>
+#include "clsMath.h";
+
 
 using namespace std;
 
@@ -16,12 +18,6 @@ private:
 	int *_Matrix;
 	
 protected:
-
-	static int RandomNumber(int From, int To)
-	{
-		 
-		return rand() % (To - From + 1) + From;
-	}
 
 public:
 	
@@ -110,7 +106,7 @@ public:
 		{
 			for (short j = 0; j < Cols; j++)
 			{
-				arr[i * Cols + j] = RandomNumber(1, 100);
+				arr[i * Cols + j] = clsMath::RandomNumber(1, 100);
 			}
 		}
 	}
