@@ -1,4 +1,4 @@
-# 🧮 Cpp-Matrix-Library
+# 🧮 Cpp Matrix Library
 👉 A clean C++ Matrix class showcasing dynamic memory management and OOP best practices.
 
 A clean and minimal **C++ Matrix Library** that demonstrates dynamic memory management, safe constructors/destructors, and OOP best practices.  
